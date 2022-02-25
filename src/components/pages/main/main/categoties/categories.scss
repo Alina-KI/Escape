@@ -10,6 +10,10 @@
   align-items: center;
   min-height: 60px;
   justify-content: center;
+  @media (max-width: 870px) {
+    gap: 0;
+
+  }
 }
 .categories_link{
   font-family: Lora, sans-serif;

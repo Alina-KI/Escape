@@ -5,12 +5,11 @@ import {FooterBot} from "./footer-bot/footer-bot";
 export const Footer = () => {
     return (
         <footer className="footer">
-            <div className="container footer__inner">
-                <h2 className="footer__title">Stay in touch</h2>
-                <hr/>
-                <form>
-                    <input type="text"/>
-                    <button>Submit</button>
+            <div className="footer__inner">
+                <h2 className="footer__title">Stay in Touch</h2>
+                <form className="footer__form">
+                    <input className="footer__form__input" type="text" placeholder="Enter your email address"/>
+                    <button className="footer__form__button">Submit</button>
                 </form>
             </div>
             <FooterBot/>

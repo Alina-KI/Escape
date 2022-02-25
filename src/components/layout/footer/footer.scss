@@ -5,11 +5,58 @@
   background: url("../../../images/bot.jpg") no-repeat;
   background-size: cover;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer__inner{
-  min-height: 288px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 90px;
+}
+.footer__title{
+  font-family: Oxygen, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  padding: 0 15px 17px 15px;
+  border-bottom: 1px solid $line;
+}
+.footer__form{
+  min-width: 500px;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  @media (max-width: 600px) {
+    max-width: 500px;
+  }
+}
+.footer__form__input{
+  border-radius: 3px 0 0 3px;
+  background: $main-content;
+  padding: 18px 35px;
+  font-family: Oxygen, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: $email-text;
+  outline: none;
+  border: none;
+  flex: 1 1 auto;
+}
+.footer__form__button{
+  background: rgba(255, 255, 255, 0.28);
+  border-radius: 0 3px 3px 0;
+  font-family: Oxygen, sans-serif;;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: $email-button;
+  outline: none;
+  border: none;
+  padding: 18px 44px;
 }
