@@ -1,0 +1,38 @@
+@import "../../../../variables";
+.footer-bot {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(35, 47, 56, 0.6);
+}
+.footer-bot__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60px;
+}
+.footer-bot__logo:hover{
+  cursor: pointer;
+}
+.footer-bot_menu{
+  display: flex;
+  gap: 10px;
+}
+.footer-bot__menu_link{
+  text-decoration: none;
+  color: $main-background;
+  font-family: Oxygen, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  padding: 5px 10px;
+  transition: .5s;
+}
+.footer-bot__menu_link:hover{
+  cursor: pointer;
+  color: $bright-content;
+  background: rgba(black, .3);
+}

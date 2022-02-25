@@ -1,0 +1,29 @@
+@import "../../../../../variables";
+
+.categories{
+
+  background: $main-content;
+}
+.categories_inner{
+  display: flex;
+  gap: 90px;
+  align-items: center;
+  min-height: 60px;
+  justify-content: center;
+}
+.categories_link{
+  font-family: Lora, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: $secondary-content;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: .5s;
+}
+.categories_link:hover{
+  cursor: pointer;
+  color: $bright-content;
+  border-bottom: 1px solid $bright-content;
+}

@@ -1,0 +1,50 @@
+@import "../../../../../variables";
+.welcome {
+  min-height: 500px;
+  background: url("../../../../../images/top.jpg") no-repeat;
+  background-size: cover;
+}
+.welcome__inner{
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.welcome__title{
+  font-size: 50px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 51px;
+  letter-spacing: 2px;
+  padding: 0;
+  margin: 0 0 20px 0 ;
+}
+.welcome__description{
+  font-family: 'Oxygen', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: $pale-content;
+  padding: 0;
+  margin: 0 0 30px 0 ;
+}
+.welcome__to-latest-posts{
+  font-family: Oxygen, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  color: $main-content;
+  background-color: $bright-content;
+  border: none;
+  border-radius: 3px;
+  padding: 12px 30px;
+  outline: none;
+  transition: .5s;
+}
+.welcome__to-latest-posts:hover{
+  cursor: pointer;
+  background: rgba($bright-content, .8);
+}

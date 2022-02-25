@@ -1,0 +1,15 @@
+@import "../../../variables";
+
+.footer {
+  min-height: 288px;
+  background: url("../../../images/bot.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.footer__inner{
+  min-height: 288px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
