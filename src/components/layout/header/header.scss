@@ -1,6 +1,6 @@
 @import "../../../variables";
 .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -9,6 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 10;
 }
 .header__logo:hover{
   cursor: pointer;

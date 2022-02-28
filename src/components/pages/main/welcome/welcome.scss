@@ -1,8 +1,9 @@
-@import "../../../../../variables";
+@import "../../../../variables";
 .welcome {
   min-height: 500px;
-  background: url("../../../../../images/top.jpg") no-repeat;
+  background: url("../../../../images/top.jpg") no-repeat;
   background-size: cover;
+  color: $main-content;
 }
 .welcome__inner{
   min-height: 500px;
