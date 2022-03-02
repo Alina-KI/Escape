@@ -4,7 +4,6 @@ import {AboutInfo} from "./about-info/about-info";
 import {aboutInfos} from "../../../content/about";
 
 
-
 export const AboutPage = () => {
     return (
         <div className='about'>
@@ -17,7 +16,10 @@ export const AboutPage = () => {
             </section>
             <div className="about__top__gradient"/>
             <article className="about__content container">
-                {aboutInfos.map(aboutInfo => <AboutInfo {...aboutInfo}/>)}
+                {aboutInfos.map((aboutInfo, i) => <AboutInfo
+                    {...aboutInfo}
+                    imgPosition={i % 2 ? 'left' : 'right'}
+                />)}
             </article>
         </div>
     )
