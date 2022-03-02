@@ -1,5 +1,9 @@
 import React from 'react'
 import './about.scss'
+import {AboutInfo} from "./about-info/about-info";
+import {aboutInfos} from "../../../content/about";
+
+
 
 export const AboutPage = () => {
     return (
@@ -13,7 +17,7 @@ export const AboutPage = () => {
             </section>
             <div className="about__top__gradient"/>
             <article className="about__content container">
-                Ы ЫЫ КАНТЕНТ
+                {aboutInfos.map(aboutInfo => <AboutInfo {...aboutInfo}/>)}
             </article>
         </div>
     )

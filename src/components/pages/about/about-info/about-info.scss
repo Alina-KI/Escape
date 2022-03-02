@@ -1,0 +1,41 @@
+.about-info {
+  display: grid;
+  grid-template:
+    "subTitle img" min-content
+    "title img" min-content
+    "description img" min-content
+    "link img" min-content
+    / 1fr 1fr;
+  column-gap: 140px;
+  margin-bottom: 100px;
+}
+
+.about-info__sub-title {
+  grid-area: subTitle;
+}
+
+.about-info__title {
+  grid-area: title;
+  font-family: 'Lora', sans-serif;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 77px;
+  margin: 0;
+}
+
+.about-info__description {
+  grid-area: description;
+  font-family: 'Lora', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.about-info__link {
+  grid-area: link;
+}
+
+.about-info__img {
+  grid-area: img;
+  max-height: 500px;
+  align-self: center;
+}
