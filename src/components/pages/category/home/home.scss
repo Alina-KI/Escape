@@ -1,0 +1,33 @@
+@import "src/variables";
+
+.home__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.home__title{
+  font-family: Oxygen, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: $home-font;
+  margin: 40px 0 30px;
+  padding: 0 20px 10px;
+  border-bottom: 1px $secondary-content solid;
+}
+
+.home__container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
