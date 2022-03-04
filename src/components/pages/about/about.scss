@@ -1,11 +1,13 @@
 @import "src/variables";
+
 .about {
   display: flex;
   flex-direction: column;
   background-color: $about-black;
   position: relative;
 }
-.about__top{
+
+.about__top {
   background: url("../../../images/about-top.jpg") no-repeat 50% 50%;
   width: 100%;
   height: 100%;
@@ -24,14 +26,36 @@
   z-index: 2;
 }
 
-.about__top__inner{
+.about__top__inner {
   display: flex;
   flex-direction: column;
   max-width: 600px;
   width: 100%;
   margin: 220px auto 0;
 }
-.about__title{
+
+.about__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.about__img{
+  flex-basis: 178px;
+}
+
+.about__img__social{
+  max-width: 24px;
+  max-height: 150px;
+}
+
+.about__img__start{
+  height: 340px;
+  width: 178px;
+}
+
+.about__title {
   font-weight: 200;
   font-size: 50px;
   line-height: 100px;
@@ -40,7 +64,7 @@
   display: inline;
 }
 
-.about__sub-title{
+.about__sub-title {
   font-size: 16px;
   line-height: 23px;
   letter-spacing: 6px;
@@ -49,7 +73,8 @@
   align-items: center;
   margin: 0 0 10px 0;
 }
-.about__sub-title:before{
+
+.about__sub-title:before {
   content: "";
   background-color: $about-black;
   width: 52px;
@@ -57,7 +82,8 @@
   display: inline-block;
   margin-right: 20px;
 }
-.about__content{
+
+.about__content {
   margin-top: -550px;
   color: $main-content;
   z-index: 5;
