@@ -25,5 +25,5 @@ export type WebcamsResponse = {
     }
 }
 
-export const getNewPostsList = () => instance.get<WebcamsResponse>('list/nearby=10000,10,99999', {params:{offset: 20}})
+export const getNewPostsList = () => instance.get<WebcamsResponse>('list/nearby=10000,10,99999')
     .then(res => res.data.result.webcams)
