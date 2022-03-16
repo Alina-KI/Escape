@@ -1,4 +1,5 @@
 @import "../../../variables";
+
 .header {
   position: absolute;
   top: 0;
@@ -11,14 +12,17 @@
   align-items: center;
   z-index: 10;
 }
-.header__logo:hover{
+
+.header__logo:hover {
   cursor: pointer;
 }
-.header__menu{
+
+.header__menu {
   display: flex;
   gap: 10px;
 }
-.header__menu_link{
+
+.header__menu_link {
   text-decoration: none;
   color: $main-background;
   font-family: Oxygen, sans-serif;
@@ -30,7 +34,8 @@
   padding: 5px 10px;
   transition: .5s;
 }
-.header__menu_link:hover{
+
+.header__menu_link:hover {
   cursor: pointer;
   color: $bright-content;
   background: rgba(black, .3);
