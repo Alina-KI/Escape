@@ -14,7 +14,7 @@ export const FooterBot = () => {
                     <NavLink to="/" className="footer-bot__menu_link">HOME</NavLink>
                     <NavLink to="/" className="footer-bot__menu_link">CATEGORIES</NavLink>
                     <NavLink to="/about" className="footer-bot__menu_link">ABOUT</NavLink>
-                    <NavLink to="/" className="footer-bot__menu_link">CONTACT</NavLink>
+                    <NavLink to="/contact" className="footer-bot__menu_link">CONTACT</NavLink>
                 </div>
             </div>
         </section>

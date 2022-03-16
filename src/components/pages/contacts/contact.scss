@@ -1,0 +1,90 @@
+@import "../../../variables";
+
+.contact-container-header{
+  width: 100%;
+  margin: 0 auto;
+  background: rgba($bright-content, .8);
+  min-height: 60px;
+}
+
+.contact-table{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.table {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0 calc(4vw + 5px);
+  width: 100%;
+  border-spacing: 0;
+}
+
+.tr__logo {
+  border: none;
+  border-spacing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  border: none;
+  border-spacing: 0;
+  margin: 50px 0 20px 0;
+  padding: 0;
+}
+
+.td-line {
+  width: 100%;
+}
+
+.line {
+  opacity: 0.2;
+  border: 1.2px solid #05225D;
+  margin: 30px 0;
+  background: black;
+}
+
+.td-surname {
+  width: 100%;
+  color: #05225D;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.td-position {
+  width: 100%;
+  color: #05225D;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+.tr-align {
+  vertical-align: center;
+}
+
+.td-img {
+  width: 25px;
+  padding-bottom: 10px;
+}
+
+.img {
+  width: 25px;
+}
+
+.td-text {
+  width: 100%;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  color: #05225D;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.span {
+  display: inline-block;
+}
+
